@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 import smtplib, ssl
 
-load_dotenv("env.env")
+
 
 USERNAME = os.getenv('EMAIL_USERNAME')
 PASS = os.getenv('EMAIL_PASS')
